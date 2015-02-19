@@ -1040,6 +1040,13 @@
       "license": "GPL",
       "comment": "span.aaが何故かある。 何故か印刷用のcssもある。 NN4.xでも大体見られるらしい。"
     },
+    "rubykaigi": {
+      "title": "RubyKaigi",
+      "revision": "$Revision: 1.0 $",
+      "author": "SHIMIZU Norio",
+      "access": "toykyo@toykyo.net",
+      "license": "GPL"
+    },
     "lime": {
       "title": "Lime",
       "author": "zoe",
