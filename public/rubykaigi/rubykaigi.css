@@ -89,7 +89,7 @@ img {
 
 div#content {
 /*  position: relative;
-  background: #fff url("/.2008/rk8/bg-side.gif") top right repeat-y;
+  background: #fff url("bg-side.gif") top right repeat-y;
   overflow: hidden;
 */}
 
@@ -122,7 +122,7 @@ h1.header,
   padding: 0 30px !important;
   height: 112px;
   line-height: 112px;
-  background: #F00012 url(/.2008/rk8/bg-head.gif) repeat-x top left;
+  background: #F00012 url(bg-head.gif) repeat-x top left;
   color: #fff;
 }
 
@@ -135,7 +135,7 @@ h1.header a,
   height: 112px;
   text-indent: -9999px;
   overflow: hidden;
-  background: transparent url('/.2008/rk8/rubykaigi2008.jpg') no-repeat left center;
+  background: transparent url('rubykaigi2008.jpg') no-repeat left center;
   color: #fff;
 }
 
@@ -151,7 +151,7 @@ div.day h2 {
   color: #B3270C;
   border: 1px solid #ccc;
   border-width: 0px 0px 1px 0px;
-  background: transparent url(/.2008/rk8/ruby_mini.png) no-repeat left center;
+  background: transparent url(ruby_mini.png) no-repeat left center;
 }
 
 div.body {
@@ -361,7 +361,7 @@ div.footer {
   text-align: right;
   font-size: 80%;
   color: #444;
-  background: transparent url(/.2008/rk8/corner-right.gif) no-repeat right top;
+  background: transparent url(corner-right.gif) no-repeat right top;
 }
 
 form div.body {
@@ -530,7 +530,7 @@ div.section {
 div.main {
   margin: 0;
   padding: 18px 30px;
-  background: #fff url(/.2008/rk8/corner-left.gif) no-repeat bottom left;
+  background: #fff url(corner-left.gif) no-repeat bottom left;
   border-right: 224px solid #E6E6E6;
 }
 
@@ -563,7 +563,7 @@ div.sidebar {
   line-height: 29px;
   font-size: 120%;
   color: #fff;
-  background: #888 url(/.2008/rk8/side-button.gif) no-repeat;
+  background: #888 url(side-button.gif) no-repeat;
 }
 .sidebar h4 {
   margin: 10px auto 0;
@@ -574,7 +574,7 @@ div.sidebar {
   font-size: 100%;
   text-align: center;
   color: #666;
-  background: #e6e6e6 url(/.2008/rk8/sponsor-title-bg.gif) no-repeat;
+  background: #e6e6e6 url(sponsor-title-bg.gif) no-repeat;
 }
 div.sidebar h2 a,
 div.sidebar h3 a {
@@ -617,7 +617,7 @@ div.sidebar ul {
   margin: 0px auto 10px;
   padding: 10px 0;
   width: 200px;
-  background: #fff url(/.2008/rk8/sponsor-footer.gif) bottom no-repeat;
+  background: #fff url(sponsor-footer.gif) bottom no-repeat;
 }
 div.sidebar ul li {
   margin: 0px;
