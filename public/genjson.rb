@@ -11,14 +11,10 @@ themes = {}
 Dir.glob('*/README') do |readme|
 	theme, = readme.split(/\//)
 	attrs = {}
-	begin
-		open(readme, &:read).split(/\n\n/m)[0].each_line do |l|
-			key, val = l.chomp.split(/:\s*/, 2)
-			attrs[key.downcase] = val
-		end
-		themes[theme] = attrs
-	rescue
-		$stderr.puts $!, readme
+	open(readme, &:read).split(/\n\n/m)[0].each_line do |l|
+		key, val = l.chomp.split(/:\s*/, 2)
+		attrs[key.downcase] = val
 	end
+	themes[theme] = attrs
 end
 print(JSON.pretty_generate({}.tap{|h| h['themes'] = themes}))
